@@ -27,7 +27,7 @@ rec = int(input("Length: "))
 
 
 fy = 10 ** (len(num.split(".")[1]) - rec)
-fx = int(fy * float(num) * 100) / 100
+fx = fy * float(num) * 100
 print(f"{fy}x = {fx}")
 ly = fy * (10 ** rec)
 lx = fx * (10 ** rec)
